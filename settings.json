@@ -1,0 +1,86 @@
+{
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.fontSize": 12,
+  "editor.fontWeight": 300,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "addMissingImports": true
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "expand",
+  "emmet.triggerExpansionOnTab": true,
+  "tailwindCSS.emmetCompletions": true,
+  "emmet.preferences": {},
+  "emmet.includeLanguages": {
+    "postcss": "css",
+    "javascript": "javascriptreact",
+    "markdown": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
+
+  "eslint.validate": [
+  "javascript",
+  "javascriptreact",
+  "vue"
+],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "css.validate": false,
+  "stylelint.enable": true,
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  },
+
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "svelte.enable-ts-plugin": true,
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "tailwindCSS.validate": true,
+
+  "terminal.integrated.fontFamily": "JetBrains Mono NL", 
+
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  "workbench.colorTheme": "Sublime Text 4 Theme",
+  "workbench.activityBar.visible": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": 1,
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.editorAssociations": {
+    "*.log": "default"
+  },
+  "http.systemCertificates": false,
+  "workbench.colorCustomizations": {},
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
+}
